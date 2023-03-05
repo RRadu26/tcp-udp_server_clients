@@ -1,0 +1,8 @@
+This project consist of 2 programs: the server and the client
+I've implemented an applicaton protocol, which facilitate all the communications
+between the client andd the server.
+The client is connected to the server using TCP. When a clients connects, it must
+provide the server an unique ID. This client can subscribe to a topic and unsubscribe
+The server also comunicates with some UDP clients, who will send a message for
+a specific topic. The TCP clients subscribed to that topic will receive that
+message.
